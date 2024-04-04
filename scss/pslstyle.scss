@@ -381,7 +381,7 @@ footer{
         overflow-x: hidden;
   
     .top-nav{
-           &>ul{margin-left: auto;}
+           &>ul{margin-left: 10px;}
    }   
  nav.main-nav>ul>li{
                          display: none;
@@ -395,9 +395,9 @@ footer{
                     }
 
  section.points-table>.table-div{
-                       margin: auto;
+                       margin-left: auto;
                         table{
-                          width:400px;
+                          width:350px;
                           border-collapse: collapse;
                           border: 1px solid rgb(211, 211, 211); 
                           th, td {
@@ -439,6 +439,7 @@ section.video>iframe{
                  }  
  section.sponsors-bar>div{
                  margin-left: 30px;
+                
                         img{
                             width:90%;
                         }

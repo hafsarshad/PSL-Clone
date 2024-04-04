@@ -370,7 +370,7 @@ footer p {
     overflow-x: hidden;
   }
   body .top-nav > ul {
-    margin-left: 450px;
+    margin-left: 10px;
   }
   body nav.main-nav > ul > li {
     display: none;
@@ -383,10 +383,10 @@ footer p {
     width: 100%;
   }
   body section.points-table > .table-div {
-    margin: auto;
+    margin-left: auto;
   }
   body section.points-table > .table-div table {
-    width: 400px;
+    width: 350px;
     border-collapse: collapse;
     border: 1px solid rgb(211, 211, 211);
   }
