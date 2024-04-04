@@ -99,6 +99,10 @@ header .full-nav > nav.main-nav ul > li .dropdown1 > li a {
   text-decoration: none;
   color: white;
 }
+header .full-nav > nav.main-nav ul > li .dropdown1 > li a:hover {
+  background-color: white;
+  color: #318b72;
+}
 header .full-nav > nav.main-nav ul > li .dropdown2 {
   display: none;
   position: absolute;
@@ -119,20 +123,18 @@ header .full-nav > nav.main-nav ul > li .dropdown2 > li a {
   text-decoration: none;
   color: white;
 }
+header .full-nav > nav.main-nav ul > li .dropdown2 > li a:hover {
+  background-color: white;
+  color: #318b72;
+}
 header .full-nav > nav.main-nav .drop-list1:hover .dropdown1 {
   display: block;
-}
-header .full-nav > nav.main-nav .drop-list1 > .dropdown1 > li > a:hover {
-  color: #48556d;
 }
 header .full-nav > nav.main-nav .drop-list2:hover .dropdown2 {
   display: block;
 }
-header .full-nav > nav.main-nav .drop-list2 > .dropdown2 > li > a:hover {
-  color: #48556d;
-}
-header .full-nav > nav.main-nav a:hover {
-  background-color: white;
+header .full-nav > nav.main-nav ul > li > a:hover {
+  background-color: rgb(233, 237, 241);
   color: #318b72;
 }
 header .full-nav > nav.main-nav ul > li:nth-child(5) > a:hover {
@@ -381,10 +383,10 @@ footer p {
     width: 100%;
   }
   body section.points-table > .table-div {
-    margin-left: 10px;
+    margin: auto;
   }
   body section.points-table > .table-div table {
-    width: 450px;
+    width: 400px;
     border-collapse: collapse;
     border: 1px solid rgb(211, 211, 211);
   }
